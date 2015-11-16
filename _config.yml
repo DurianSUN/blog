@@ -6,13 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: jucsin's home
+title: jucsin
 email: 1033784992@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  <h>清晨入古寺，初日照高林。</h>
-  曲径通幽处，禅房花木深.
-  山光悦鸟性，潭影空人心.
-  万籁此俱寂，惟闻钟磬音。
+  <pre>清晨入古寺，初日照高林。</pre>
+  <pre>曲径通幽处，禅房花木深. </pre>
+  <pre>山光悦鸟性，潭影空人心. </pre>
+  <pre>万籁此俱寂，惟闻钟磬音。</pre>
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jucsinyu.com" # the base hostname & protocol for your site
 twitter_username: DurianSUN
