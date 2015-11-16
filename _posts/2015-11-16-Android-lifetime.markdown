@@ -18,8 +18,7 @@ Activity的作为android重要单元之一（其他元件包括：Service,Broadc
 
 为了测试，我做了一个Activity切换的demo
 MainActivity.java(这是第一个Activity页面)；第二个页面代码类似。
-
-```
+    `
 public class MainActivity extends ActionBarActivity {
 	
 	final String TAG ="------hxTest--------";
@@ -99,7 +98,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 }
-```
+`
 
 
 小demo的代码下载地址：
