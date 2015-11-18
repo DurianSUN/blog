@@ -1,0 +1,20 @@
+---
+data-thread-key: 数字媒体研究所招新演讲
+layout: post
+title:  "数字媒体研究所招新Android演讲"
+date:   2015-11-18 16:13:51 +0800
+categories: jekyll update
+---
+<p>今年的实验室进行招新,这是我在招新宣讲会上的演讲PPT</p>
+
+![test](http://7xofac.com1.z0.glb.clouddn.com/1.png)
+<p></p>
+![test](http://7xofac.com1.z0.glb.clouddn.com/2.png)
+<p></p>
+![test](http://7xofac.com1.z0.glb.clouddn.com/3.png)
+<p></p>
+![test](http://7xofac.com1.z0.glb.clouddn.com/4.png)
+<p></p>
+![test](http://7xofac.com1.z0.glb.clouddn.com/5.png)
+<p></p>
+![test](http://7xofac.com1.z0.glb.clouddn.com/6.png)
