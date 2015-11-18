@@ -1,7 +1,7 @@
 ---
 data-thread-key: 数字媒体研究所招新演讲
 layout: post
-title:  "数字媒体研究所招新Android演讲"
+title:  "2015数字媒体技术研究所招新Android演讲"
 date:   2015-11-18 16:13:51 +0800
 categories: jekyll update
 ---
@@ -18,11 +18,11 @@ categories: jekyll update
 
 ![test](http://7xofac.com1.z0.glb.clouddn.com/3.png)
 <p></p>
-- 介绍自己负责和参与开发的APP项目
+- 介绍自己负责和参与开发的APP项目,以及相关的学习心得
 
 ![test](http://7xofac.com1.z0.glb.clouddn.com/4.png)
 <p></p>
-- 告诉大家,来到实验室能够做什么,收获什么。
+- 告诉大家,来到实验室能够做什么,收获什么
 
 ![test](http://7xofac.com1.z0.glb.clouddn.com/5.png)
 <p></p>
