@@ -1,11 +1,12 @@
 ---
+data-thread-key: 讨论Activity的生命周期
 layout: post
 title:  "讨论Activity的生命周期"
 date:   2015-11-15 15:56:51 +0800
 categories: jekyll update
 ---
 Activity的作为android重要单元之一（其他元件包括：Service,BroadcastReceiver和ContentProvider）其重要性自然不必多说， 今天就来Activity的生命周期来讨论一下
-
+![test](http://7xofac.com1.z0.glb.clouddn.com/Android_Activity_life.jpg)
 
 通过这张图,我们可以看到整个Activity的生命流程,总结几点:
 
