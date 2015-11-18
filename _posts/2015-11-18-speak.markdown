@@ -1,7 +1,7 @@
 ---
 data-thread-key: 数字媒体研究所招新演讲
 layout: post
-title:  "2015数字媒体技术研究所招新Android演讲"
+title:  "2015数字媒体技术研究所招新-Android组演讲"
 date:   2015-11-18 16:13:51 +0800
 categories: jekyll update
 ---
