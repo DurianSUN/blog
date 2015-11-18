@@ -1,4 +1,5 @@
 ---
+data-thread-key: test
 layout: post
 title:  "Android 学习路线"
 date:   2015-11-16 13:13:51 +0800
