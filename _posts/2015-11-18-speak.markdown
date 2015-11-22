@@ -7,6 +7,7 @@ categories: jekyll update
 ---
 
 <p>今年的实验室进行招新,这是我在招新宣讲会上的演讲PPT</p>
+excerpt_separator
 - 开场画面
 
 ![test](http://7xofac.com1.z0.glb.clouddn.com/幻灯片1.png)
