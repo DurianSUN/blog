@@ -8,25 +8,25 @@ categories: jekyll update
 <p>今年的实验室进行招新,这是我在招新宣讲会上的演讲PPT</p>
 - 开场画面
 
-![test](http://7xofac.com1.z0.glb.clouddn.com/1.png)
+![test](http://7xofac.com1.z0.glb.clouddn.com/幻灯片1.png)
 <p></p>
 - 围绕三个主题进行演讲
 
-![test](http://7xofac.com1.z0.glb.clouddn.com/2.png)
+![test](http://7xofac.com1.z0.glb.clouddn.com/幻灯片2.png)
 <p></p>
 - 大体介绍介绍大学几年的经历
 
-![test](http://7xofac.com1.z0.glb.clouddn.com/3.png)
+![test](http://7xofac.com1.z0.glb.clouddn.com/幻灯片3.png)
 <p></p>
 - 介绍自己负责和参与开发的APP项目,以及相关的学习心得
 
-![test](http://7xofac.com1.z0.glb.clouddn.com/4.png)
+![test](http://7xofac.com1.z0.glb.clouddn.com/幻灯片4.png)
 <p></p>
 - 告诉大家,来到实验室能够做什么,收获什么
 
-![test](http://7xofac.com1.z0.glb.clouddn.com/5.png)
+![test](http://7xofac.com1.z0.glb.clouddn.com/幻灯片5.png)
 <p></p>   
 - end
 
-![test](http://7xofac.com1.z0.glb.clouddn.com/6.png)
+![test](http://7xofac.com1.z0.glb.clouddn.com/幻灯片6.png)
 
