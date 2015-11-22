@@ -30,5 +30,4 @@ categories: jekyll update
 
 ![test](http://7xofac.com1.z0.glb.clouddn.com/幻灯片6.png)
 
-![有帮助的截图]({{site.url}}/assets/images/octocat-2x.png)
 
