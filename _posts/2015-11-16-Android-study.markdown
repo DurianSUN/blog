@@ -5,7 +5,7 @@ title:  "Android 学习路线"
 date:   2015-11-16 13:13:51 +0800
 categories: jekyll update
 ---
-###*介绍Android学习的方法的路线和推荐相应的学习书籍和视频*
+*介绍Android学习的方法的路线和推荐相应的学习书籍和视频*
 
 ##如何学习Android入门？
 1. 需要Java基础（越扎实越好）
