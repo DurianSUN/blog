@@ -25,7 +25,8 @@ categories: jekyll update
 - 告诉大家,来到实验室能够做什么,收获什么
 
 ![test](http://7xofac.com1.z0.glb.clouddn.com/5.png)
-<p></p>
+<p></p>   
 - end
 
 ![test](http://7xofac.com1.z0.glb.clouddn.com/6.png)
+
