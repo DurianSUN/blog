@@ -6,11 +6,10 @@ title:  "Android学习路线"
 date:   2015-11-15 23:56:51 +0800
 categories: jekyll update
 ---
-*介绍Android学习的方法的路线和推荐相应的学习书籍和视频*
-
-----------
+*介绍Android学习的方法的路线和推荐相应的学习书籍和视频*  
 
 ## 如何Android入门？
+---------------
  1. 需要Java 基础（越扎实越好）：   
 考察要点：面对对象基础，IO ，多线程，集合框架。  
 建议看视频：《 Java 4 android 》, 《 Java 核心技术卷一》
@@ -25,7 +24,7 @@ Android 基础知识点
 （3）学会使用 Android 的通知，能够通过代码接受发短信，能够调用摄像头，相册，播放多媒体文件，学会使用 server ,采用后台子线程更新UI，采用异步，AsyncTask ,能够后台定时的执行任务。   
 能够使用手机的各类传感器，学会编写测试用例，进行单元测试。
 4. 尝试整合知识点，做出一个 demo 集合，整合学习到知识点。
-考察要点：自主完成个人 APP ，结合 Android 基础知识，网络编程，完成一个完整的 mini 项目。
+考察要点：自主完成个人 APP ，结合 Android 基础知识，网络编程，完成一个完整的 mini 项目。   
 
 **建议学习博客：**
 <a href="http://www.marschen.com/portal.php">marschen的Android教学</a>
@@ -39,7 +38,7 @@ Android 基础知识点
 2. 继续夯实java,《 Java 核心技术卷二》，《 Java 编程思想》
 3. 扩展网络编程内容,《 Java 网络编程》,《深入理解 Android 网络编程》
 4. 扩展基础知识面：《大话数据结构》，《大话设计模式》   
- **建议学习博客：**  
+**建议学习博客：**  
 <a href="http://over140.cnblogs.com/">农民伯伯</a> <a href="http://byandby.iteye.com/ ">低级写手</a> <a href="http://www.csdn.net/article/2011-08-30/303833 ">CSDN博文精选：Android系列开发博客资源汇总</a>
 
 ##如何向Android小牛迈进? 
