@@ -30,9 +30,10 @@ Android 基础知识点
 **建议学习博客：**
 <a href="http://www.marschen.com/portal.php">marschen的Android教学</a>
 
-----------
+
 
 ##如何Android初步进阶？
+----------------
 
 1. Android进阶书籍：《 Android 高级编程4》，《精通 Android 4》，《 Android 开发艺术探索》
 2. 继续夯实java,《 Java 核心技术卷二》，《 Java 编程思想》
@@ -41,12 +42,12 @@ Android 基础知识点
  **建议学习博客：**  
 <a href="http://over140.cnblogs.com/">农民伯伯</a> <a href="http://byandby.iteye.com/ ">低级写手</a> <a href="http://www.csdn.net/article/2011-08-30/303833 ">CSDN博文精选：Android系列开发博客资源汇总</a>
 
--------
-##如何向Android小牛迈进?
-1. 性能优化书籍：《精妙绝伦的 AndroidUI 设计》，《 Android 应用性能优化》
+##如何向Android小牛迈进? 
+----------------  
+1. 性能优化书籍：《精妙绝伦的 AndroidUI 设计》，《 Android 应用性能优化》   
 2. 窥探Android底层和原理，《 Android 安全与逆向分析》，《 Android 设计与实现》，《 Android 技术内幕-系统卷》，重点关注罗升阳的源码分析   
-<a href="http://blog.csdn.net/Luoshengyang?viewmode=contents.com">老罗的Android开发</a>
-3. 提高整体代码素养：从重构，设计模式，源码，软件工程角度出发，不仅仅局限于一个小项目，某个知识点
+<a href="http://blog.csdn.net/Luoshengyang?viewmode=contents.com">老罗的Android开发</a>   
+3. 提高整体代码素养：从重构，设计模式，源码，软件工程角度出发，不仅仅局限于一个小项目，某个知识点   
 推荐书籍：   
 <a href="http://book.douban.com/subject/1102259/">《人月神话》</a><a href="http://book.douban.com/subject/25965995/">《构建之法》</a><a href="http://book.douban.com/subject/3004255/">《编程之美》</a><a href="https://book.douban.com/subject/2149642/">《移山之道》</a>   
 4. 提高基本功，书籍：<a href="http://book.douban.com/subject/10432347/"> 《算法》</a>
@@ -54,7 +55,7 @@ Android 基础知识点
 5. 回归基本点，学习C++，搞 JNI，建议书籍：<a href="http://www.linuxidc.com/Linux/2014-05/101227.htm">《C++ PrimerPlus》</a>   
 6. 全面提升计算机素养，弥补数学知识，像更深层次迈进，推荐：<a href="http://book.douban.com/subject/21323941/"> 《具体数学》 </a>   
 7.  吸收大神的成果：膜拜 T 神 <a href="https://github.com/Trinea">Trinea的github</a> <a href="http://www.trinea.cn/">Trinea 的博客</a>，集合各种源码分析，开源组件，android新技术剖析。   
-8.  提升自己的广度和深度，建议在广度上，广泛涉及学习各个方向的知识，数据结构，数据库，
+8.  提升自己的广度和深度，建议在广度上，广泛涉及学习各个方向的知识，数据结构，数据库，操作系统，算法，软件工程，架构，服务器等各个方面。深度在应该不断的追究实现的原理，底层的逻辑，方能够融汇贯通，信手拈来。
  
 **建议学习博客：**
 <a href="http://blog.csdn.net/lovelion">刘伟技术博客</a>
