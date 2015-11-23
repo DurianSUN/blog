@@ -48,7 +48,6 @@ Android基础知识点
 <a href="http://book.douban.com/subject/1102259/">《人月神话》</a><a href="http://book.douban.com/subject/25965995/">《构建之法》</a><a href="http://book.douban.com/subject/3004255/">《编程之美》</a><a href="https://book.douban.com/subject/2149642/">《移山之道》</a>
 4. 提高基本功，书籍：<a href="http://book.douban.com/subject/10432347/">《算法》</a>
 <a href="http://book.douban.com/subject/1139426/">《数据结构与算法分析:C语言描述》</a>
-
 5. 回归基本点，学习C++，搞JNI，建议书籍：<a href="http://www.linuxidc.com/Linux/2014-05/101227.htm">《C++ PrimerPlus》</a>
 6. 全面提升计算机素养，弥补数学知识，像更深层次迈进，推荐：<a href="http://book.douban.com/subject/21323941/">《具体数学》</a>   
 7. 吸收大神的成果：膜拜T神 <a href="https://github.com/Trinea">Trinea的github</a> <a href="http://www.trinea.cn/">Trinea的博客</a>，集合各种源码分析，开源组件，android新技术剖析。
