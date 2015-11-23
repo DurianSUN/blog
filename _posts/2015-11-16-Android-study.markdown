@@ -49,6 +49,8 @@ categories: jekyll update
 
 5. 回归基本点，学习C++，搞JNI，建议书籍：<a href="http://www.linuxidc.com/Linux/2014-05/101227.htm">《C++ PrimerPlus》</a>
 6. 全面提升计算机素养，弥补数学知识，像更深层次迈进，推荐：<a href="http://book.douban.com/subject/21323941/">《具体数学》</a>   
+7. 吸收大神的成果：膜拜T神 <a href="https://github.com/Trinea">Trinea的github</a> <a href="http://www.trinea.cn/">Trinea的博客</a>，集合各种源码分析，开源组件，android新技术剖析。
+ 
 **建议学习博客：**
 <a href="http://blog.csdn.net/lovelion">刘伟技术博客</a>
 <a href="http://blog.csdn.net/Luoshengyang?viewmode=contents.com">老罗的Android开发</a>
