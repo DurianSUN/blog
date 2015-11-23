@@ -41,9 +41,13 @@ categories: jekyll update
 ##如何向Android小牛迈进?
 1. 性能优化书籍：《精妙绝伦的AndroidUI设计》，《Android应用性能优化》
 2. 窥探Android底层和原理，《Android安全与逆向分析》，《Android设计与实现》，《Android技术内幕-系统卷》，重点关注罗升阳的源码分析。
-3. 提高整体代码素养：从java重构，设计模式，源码，软件工程角度出发，不仅仅局限于一个小项目，某个知识点
-4. 提高基本功，书籍：<a href="http://book.douban.com/subject/10432347/">算法</a>
-5. 回归基本点，学习C++，搞JNI，建议书籍：，<a href="http://www.linuxidc.com/Linux/2014-05/101227.htm">《C++ PrimerPlus》</a>
+3. 提高整体代码素养：从重构，设计模式，源码，软件工程角度出发，不仅仅局限于一个小项目，某个知识点
+推荐书籍：   
+<a href="http://book.douban.com/subject/1102259/">《人月神话》</a><a href="http://book.douban.com/subject/25965995/">《构建之法》</a><a href="http://book.douban.com/subject/3004255/">《编程之美》</a><a href="https://book.douban.com/subject/2149642/">《移山之道》</a>
+4. 提高基本功，书籍：<a href="http://book.douban.com/subject/10432347/">《算法》</a>
+<a href="http://book.douban.com/subject/1139426/">《数据结构与算法分析:C语言描述》</a>
+
+5. 回归基本点，学习C++，搞JNI，建议书籍：<a href="http://www.linuxidc.com/Linux/2014-05/101227.htm">《C++ PrimerPlus》</a>
 6. 全面提升计算机素养，弥补数学知识，像更深层次迈进，推荐：<a href="http://book.douban.com/subject/21323941/">《具体数学》</a>   
 **建议学习博客：**
 <a href="http://blog.csdn.net/lovelion">刘伟技术博客</a>
