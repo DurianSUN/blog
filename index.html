@@ -1,43 +1,26 @@
---- layout: default ---
+---
+layout: default
 
-<div class="head">
-    
-    <div class="head-content">
-        <div class="head-portrait">
-          <img class="head-portrait-pic" src="hero.jpg" alt="">
-
-        </div>
-        <!--  <img class="head-portrait" src="hero.jpg" alt=""> -->
-        <h1 class="head-name">jucsin</h1>
-    </div>
-
-    <div class="nav">
-        <div class="nav-content">
-            <ul class="clear">
-                <li>
-                    <a href=""></a>article</li>
-                <li>
-                    <a href=""></a>test</li>
-                <li>
-                    <a href=""></a>about</li>
-            </ul>
-        </div>
-    </div>
-</div>
+---
 <div class="home">
-    <h1 class="page-heading">文章列表</h1>
-    <ul class="post-list">
-        {% for post in site.posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>
+
+  <h1 class="page-heading">文章列表</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></br>
         </h2>
-            <h4>
+        <h4>
            <!-- {{ post.excerpt }} -->
         </h4>
-        </li>
-        {% endfor %}
-    </ul>
-    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>
