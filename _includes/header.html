@@ -13,18 +13,14 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
+     
 
   </div> -->
 <div class="head">
     
+
+     
+    </nav>
     <div class="head-content">
         <div class="head-portrait">
           <img class="head-portrait-pic" src="http://7xofac.com1.z0.glb.clouddn.com/waixingren.png" alt="">
@@ -40,7 +36,13 @@
                     <a href="{{ site.baseurl }}/">文章</a></li>
                     
                 <li>
-                    <a href="{{ site.baseurl }}/">关于</a></li>
+                     {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+                  </li>
+
             </ul>
         </div>
     </div>
