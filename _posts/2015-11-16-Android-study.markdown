@@ -44,7 +44,7 @@ categories: jekyll update
 3. 提高整体代码素养：从java重构，设计模式，源码，软件工程角度出发，不仅仅局限于一个小项目，某个知识点
 4. 提高基本功，书籍：<a href="http://book.douban.com/subject/10432347/">算法</a>
 5. 回归基本点，学习C++，搞JNI，建议书籍：，<a href="http://www.linuxidc.com/Linux/2014-05/101227.htm">《C++ PrimerPlus》</a>
-6. 全面提升计算机素养，弥补数学知识，像更深层次迈进，推荐：<a href="http://book.douban.com/subject/21323941/">《具体数学》</a>
+6. 全面提升计算机素养，弥补数学知识，像更深层次迈进，推荐：<a href="http://book.douban.com/subject/21323941/">《具体数学》</a>   
 **建议学习博客：**
 <a href="http://blog.csdn.net/lovelion">刘伟技术博客</a>
 <a href="http://blog.csdn.net/Luoshengyang?viewmode=contents.com">老罗的Android开发</a>
