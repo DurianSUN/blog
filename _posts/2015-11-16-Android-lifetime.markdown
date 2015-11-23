@@ -1,7 +1,7 @@
 ---
-data-thread-key: 讨论 Activity 的生命周期
+data-thread-key: 讨论Activity的生命周期
 layout: post
-title:  "讨论 Activity 的生命周期"
+title:  "讨论Activity的生命周期"
 date:   2015-11-15 15:56:51 +0800
 categories: jekyll update
 ---
