@@ -9,11 +9,10 @@
 title:  Jucsin的技术博客
 email: 1033784992@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  <p>清晨入古寺，初日照高林。</p>
-  <p>曲径通幽处，禅房花木深. </p>
-  <p>山光悦鸟性，潭影空人心. </p>
-  <p>万籁此俱寂，惟闻钟磬音。</p>
-  
+  <p>You are waiting for a train</p>
+  <p>a train that will take you far away</p> 
+  <p>You know where you hope this train will take you</p>
+  <p>but you can't be sure</p>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jucsinyu.com" # the base hostname & protocol for your site
 twitter_username: DurianSUN
