@@ -3,7 +3,7 @@
 data-thread-key: Android学习路线
 layout: post
 title:  "Android学习路线"
-date:   11/23/2015 3:31:48 PM 
+date:   2015-11-15 23:56:51 +0800
 categories: jekyll update
 ---
 *介绍Android学习的方法的路线和推荐相应的学习书籍和视频*
