@@ -1,26 +1,117 @@
----
-layout: default
+--- layout: default ---
+<style>
+.clear {
+    clear: both;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
 
----
+.head {
+    width: 100%;
+    height: 300px;
+    background: #09B390;
+}
+
+.head-content {
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.head-portrait {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 50px auto 0 auto;
+    overflow: hidden;
+    float: left;
+}
+.head-portrait-pic{
+    margin:7px 0 0 7px;
+    width:135px;
+    height: 135px;
+   border-radius: 50%;
+}
+
+.head-name {
+    margin: 0 auto;
+    width: 100px;
+    float: left;
+    color: #fff;
+    margin: 100px 0 0 20px;
+}
+
+.nav {
+    background: #444;
+    width: 100%;
+    height: 50px;
+    margin: 50px auto 0 auto;
+}
+
+.nav-content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nav li {
+    float: left;
+    width: 100px;
+    padding: 10px 50px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.nav li:hover {
+    background: #8F2626
+}
+
+.nav-about {
+    float: right;
+}
+</style>
+<div class="head">
+    
+    <div class="head-content">
+        <div class="head-portrait">
+          <img class="head-portrait-pic" src="hero.jpg" alt="">
+
+        </div>
+        <!--  <img class="head-portrait" src="hero.jpg" alt=""> -->
+        <h1 class="head-name">jucsin</h1>
+    </div>
+
+    <div class="nav">
+        <div class="nav-content">
+            <ul class="clear">
+                <li>
+                    <a href=""></a>article</li>
+                <li>
+                    <a href=""></a>test</li>
+                <li>
+                    <a href=""></a>about</li>
+            </ul>
+        </div>
+    </div>
+</div>
 <div class="home">
-
-  <h1 class="page-heading">文章列表</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
+    <h1 class="page-heading">文章列表</h1>
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></br>
         </h2>
-        <h4>
+            <h4>
            <!-- {{ post.excerpt }} -->
         </h4>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+        </li>
+        {% endfor %}
+    </ul>
+    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
 </div>
