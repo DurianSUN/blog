@@ -2,7 +2,7 @@
 
 data-thread-key: Android学习路线
 layout: post
-title:  "Android学习路线"
+title:  " Android 学习路线"
 date:   2015-11-15 23:56:51 +0800
 categories: jekyll update
 ---
