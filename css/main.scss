@@ -62,7 +62,8 @@ $on-laptop:        800px;
 .head {
     width: 100%;
     height: 210px;
-    background: #09B390;
+    background-image: url('http://7xofac.com1.z0.glb.clouddn.com/243202.jpg');
+    background-size:100% 600px;
 }
 
 .head-content {
@@ -97,11 +98,13 @@ $on-laptop:        800px;
 }
 
 .nav {
-    background: #008080;
+    background: #D2B48C;
     width: 100%;
     height: 50px;
     margin: 10px auto 0 auto;
 }
+
+
 
 .nav-content {
     width: 800px;
@@ -122,10 +125,11 @@ $on-laptop:        800px;
 }
 .nav li a{
      color:#fff;
+     text-decoration :none
 }
 
 .nav li:hover {
-    background: #007979
+    background: #CD853F
 }
 
 .nav-about {
