@@ -16,7 +16,7 @@ categories: jekyll update
 2. 搭建Android的环境  
 考察要点：能够初始化一个新项目，能够真机运行。
 3. 看完**《 第一行代码 》** ，学完相应的知识点和敲完相应的练习。  
-Android 基础知识点
+**Android 基础知识点**：
 ![test](http://7xofac.com1.z0.glb.clouddn.com/android基础知识点.png) 
 考察要点：   
 （1）熟练创建程序，了解项目的基本结构，了解 Android 的日志工具，学会使用 Intent ,熟悉四种基本布局，熟悉四大组件的生命周期，熟悉使用常用控件，会创建自定义控件，能够快速的构建出自己的设计出来的界面，熟练使用碎片。   
