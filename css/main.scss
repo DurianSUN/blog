@@ -51,7 +51,12 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
-
+.fr{
+    float:right;
+}
+.fl{
+    float:left;
+}
 .clear {
     clear: both;
     overflow: hidden;
@@ -65,7 +70,10 @@ $on-laptop:        800px;
     
     background-size: 600px;
 }
-
+html,body{
+    width: 100%;
+    overflow-x: hidden
+}
 .head-content {
     width: 20%;
     min-width:300px;
@@ -95,7 +103,7 @@ $on-laptop:        800px;
     width: 100px;
     float: left;
     color: #fff;
-    margin: 100px 0 0 20px;
+    margin: 100px 0 0 3px;
 }
 
 .nav {

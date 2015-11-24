@@ -140,9 +140,18 @@
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
     position:relative;
-    top:-90px;
-    left:-65px;
-   
+
+  
+}
+.footer-article{
+    float:right;
+    margin-top:-80px;
+}
+@media screen and (max-width:660px){
+    .footer-article{
+        
+        margin-top:0;
+    }
 }
 
 @include media-query($on-laptop) {
