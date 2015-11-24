@@ -61,20 +61,20 @@ $on-laptop:        800px;
 
 .head {
     width: 100%;
-    height: 230px;
+    height: 210px;
     background: #09B390;
 }
 
 .head-content {
     width: 800px;
-    height: 170px;
+    height: 155px;
     margin: 0 auto; 
     overflow: hidden;
 }
 
 .head-portrait {
-    width: 150px;
-    height: 150px;
+    width: 145px;
+    height: 145px;
     border-radius: 50%;
     background: #fff;
     margin: 10px auto 0 auto;
@@ -82,7 +82,7 @@ $on-laptop:        800px;
     float: left;
 }
 .head-portrait-pic{
-    margin:7px 0 0 7px;
+    margin:5px 0 0 5px;
     width:135px;
     height: 135px;
    border-radius: 50%;
@@ -111,17 +111,21 @@ $on-laptop:        800px;
 
 .nav li {
     float: left;
-    width: 100px;
+    width: 120px;
     padding: 10px 50px;
     height: 30px;
     font-size: 20px;
     text-align: center;
     color: #fff;
     list-style-type:none;
+   
+}
+.nav li a{
+     color:#fff;
 }
 
 .nav li:hover {
-    background: #8F2626
+    background: #007979
 }
 
 .nav-about {
