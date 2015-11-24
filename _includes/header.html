@@ -17,9 +17,6 @@
 
   </div> -->
 <div class="head">
-    
-
-     
     </nav>
     <div class="head-content">
         <div class="head-portrait">
@@ -35,12 +32,12 @@
                 <li>
                     <a href="{{ site.baseurl }}/">文章</a></li>
                     <li>
-                    <a href="{{ site.baseurl }}/">软件自由组织</a></li>
+                    <a href="{{ site.baseurl }}/">自由软件组织</a></li>
                     
                 <li>
                      {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">        about</a>
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">about</a>
                   {% endif %}
                   {% endfor %}
                   </li>
