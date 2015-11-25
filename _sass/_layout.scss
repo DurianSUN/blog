@@ -195,7 +195,8 @@ margin-left:40px;
     font-weight: 600;
     font-size: 20px;
     font-family : Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", "Times New Roman", serif;;
-    margin:20px;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
 .post-list {
@@ -226,11 +227,11 @@ margin-left:40px;
  */
 
 .post{
-  margin: 15px;
+  
   width: 100%;
   background: #FFF;
   border-radius: 4px;
-  padding:30px;
+  padding:40px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 
 
@@ -240,16 +241,13 @@ margin-left:40px;
 
 }
 
-.post-title {
-    
-
-
+.post-title { 
+ text-align: center;
   line-height: 1;
-  font-size: 2em;
-  font-weight: 1;
+  font-size: 32px;
+  font-weight: 500;
   margin: 10px 10px 10px 10px; 
-  padding: 30px 30px 30px 30px;
-font-family: Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", "Times New Roman", serif;
+ font-family: Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", "Times New Roman", serif;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -264,7 +262,7 @@ font-family: Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Micros
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 26px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -272,7 +270,7 @@ font-family: Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Micros
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 20px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -280,7 +278,7 @@ font-family: Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Micros
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 12px;
 
         @include media-query($on-laptop) {
             font-size: 18px;

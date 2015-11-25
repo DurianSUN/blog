@@ -146,7 +146,6 @@ html,body{
     text-align: center;
     color: #fff;
     list-style-type:none;
-   
 }
 .nav li a{
      color:#fff;
@@ -158,10 +157,10 @@ html,body{
     float: right;
 }
 .content-style{
-max-width: 800px;
-min-widht: 220px;
+  border-radius: 4px;
+  max-width: 1000px;
+  min-widht: 220px;
   margin: 15px auto 0 auto;;
-  min-width:400px;
   padding: 20px;
   border: none;
   zoom: 1.001;
