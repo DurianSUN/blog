@@ -182,31 +182,33 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    background-color:#fff;
+    background-color:#f1f1f1;
 }
 
 .page-heading {
     font-size: 20px;
     font-family : 微软雅黑,宋体, 'New York';
+    margin:20px;
 }
 
 .post-list {
-    margin-left: 0;
+    margin-left: 20px;
     list-style: none;
-
     > li {
         margin-bottom: $spacing-unit;
     }
 }
 
 .post-meta {
+    margin-left: 0px;
     font-size: $small-font-size;
     color: $grey-color;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 23px;
+    font-family : 'Lato', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -214,14 +216,31 @@
 /**
  * Posts
  */
+
+.post{
+  margin: 15px;
+  width: 100%;
+  background: #FFF;
+  border-radius: 4px;
+  padding:30px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+
+
+}
 .post-header {
     margin-bottom: $spacing-unit;
+
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    
+
+  font-size: 2.25em;
+  line-height: 120%;
+  font-weight: normal;
+  margin: 10px 10px 10px 10px; 
+  padding: 30px 30px 30px 30px;
+
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -229,6 +248,10 @@
 }
 
 .post-content {
+   
+    width: 100%;
+    background: #fff;
+    
     margin-bottom: $spacing-unit;
 
     h2 {

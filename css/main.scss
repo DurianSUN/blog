@@ -104,7 +104,6 @@ html,body{
     font-family: 'Raleway', 'Helvetica Neue', sans-serif;
     color: #fff;
     font-size: 2.2em;
-   
     margin: 120px 0 0 100px;
 }
 
@@ -155,4 +154,26 @@ html,body{
 }
 .nav-about {
     float: right;
+}
+.content-style{
+  width: 100%;
+  margin: 15px;
+  padding: 20px;
+  border: none;
+  zoom: 1.001;
+  color: #555;
+  background: #fff;
+  
+  font-size: 1px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+.page-head-style{
+  margin: 0;
+  padding: 0;
+  border: none;
+  zoom: 1.001;
+  color: #555;
+  background: #fff;
+  font-family: 'Lato', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
 }
