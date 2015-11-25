@@ -187,7 +187,7 @@
 
 .page-heading {
     font-size: 20px;
-    font-family : 微软雅黑,宋体, 'New York';
+    font-family : Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", "Times New Roman", serif;;
     margin:20px;
 }
 
@@ -203,12 +203,13 @@
     margin-left: 0px;
     font-size: $small-font-size;
     color: $grey-color;
+    font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 
 .post-link {
     display: block;
     font-size: 23px;
-    font-family : 'Lato', 'Helvetica Neue', sans-serif;
+    font-family : Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", "Times New Roman", serif;
 }
 
 
@@ -235,12 +236,13 @@
 .post-title {
     
 
-  font-size: 2.25em;
-  line-height: 120%;
-  font-weight: normal;
+
+  line-height: 1;
+  font-size: 2em;
+  font-weight: 1;
   margin: 10px 10px 10px 10px; 
   padding: 30px 30px 30px 30px;
-
+font-family: Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", "Times New Roman", serif;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -251,7 +253,7 @@
    
     width: 100%;
     background: #fff;
-    
+    font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     margin-bottom: $spacing-unit;
 
     h2 {
