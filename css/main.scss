@@ -66,7 +66,7 @@ $on-laptop:        800px;
 
 .head {
     width: 100%;
-    height: 210px;
+    height: 250px;
     
     background-size: 600px;
 }
@@ -77,39 +77,39 @@ html,body{
 .head-content {
     width: 20%;
     min-width:300px;
-    height: 155px;
+    height: 205px;
     margin: 0 auto; 
     overflow: hidden;
 }
 
 .head-portrait {
-    width: 145px;
-    height: 145px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     background: #fff;
-    margin: 10px auto 0 auto;
+    margin: 20px 10px 10px 100px;
     overflow: hidden;
     float: left;
 }
 .head-portrait-pic{
-    margin:5px 0 0 5px;
-    width:135px;
-    height: 135px;
-   border-radius: 50%;
+    margin:3px 3px 3px 3px;
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
 }
 
 .head-name {
     margin: 0 auto;
     width: 100px;
-    float: left;
+    
     color: #fff;
-    margin: 100px 0 0 3px;
+    margin: 120px 0 0 100px;
 }
 
 .nav {
-    background: #D2B48C;
+    background: #0029A3;
     width: 100%;
-    height: 50px;
+    height: 45px;
     margin: 10px auto 0 auto;
 }
 
@@ -133,10 +133,10 @@ html,body{
 .nav li {
     float: left;
     padding: 10px 0;
-    height: 30px;
+    height: 25px;
     width:33%;
     min-width:50px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     color: #fff;
     list-style-type:none;
@@ -148,7 +148,7 @@ html,body{
 }
 
 .nav li:hover {
-    background: #CD853F
+    background: #0038E0
 
 }
 
