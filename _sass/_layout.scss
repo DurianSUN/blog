@@ -103,6 +103,8 @@
 }
 
 .footer-heading {
+margin-left:40px;
+    text-decoration: none;
     font-size: 15px;
     margin-bottom: $spacing-unit / 2;
     font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
@@ -122,19 +124,20 @@
 }
 
 .footer-col {
-    font-family: "ff-tisa-web-pro", serif;
+    font-family:  Lato,"Helvetica Neue","Segoe UI",Helvetica,Arial,sans-serif;
     float: left;
-    font-style: italic;
     margin-bottom: $spacing-unit / 3;
     padding-left: $spacing-unit / 3;
 }
 
 .footer-col-1 {
+  text-decoration: none;
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
+  text-decoration: none;
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
 }
@@ -189,6 +192,7 @@
 }
 
 .page-heading {
+    font-weight: 600;
     font-size: 20px;
     font-family : Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", "Times New Roman", serif;;
     margin:20px;
