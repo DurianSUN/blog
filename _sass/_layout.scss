@@ -105,6 +105,7 @@
 .footer-heading {
     font-size: 15px;
     margin-bottom: $spacing-unit / 2;
+    font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 
 .contact-list,
@@ -121,7 +122,9 @@
 }
 
 .footer-col {
+    font-family: "ff-tisa-web-pro", serif;
     float: left;
+    font-style: italic;
     margin-bottom: $spacing-unit / 3;
     padding-left: $spacing-unit / 3;
 }
