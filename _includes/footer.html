@@ -1,17 +1,25 @@
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"jucsinyu"};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+<!--多说js加载结束，一个页面只需要加载一次 -->
 <footer class="site-footer">
 
   <div class="wrapper">
 
     <h2 class="footer-heading">{{ site.title }}</h2>
-<p class="footer-heading"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS订阅</a></p>
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1 ">
-        <ul class="contact-list">
-      
-        </ul>
+     <a class ="visit-head" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS订阅</a>
+    <p class ="visit-head">最近访客</p>
+     <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-3 ">
+        <ul class="ds-recent-visitors" data-num-items="15" data-avatar-size="32"></ul>
       </div>
-      
-
       <div class="footer-col footer-article">
         <p>{{ site.description }}</p>
       </div>
