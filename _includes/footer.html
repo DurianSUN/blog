@@ -7,6 +7,32 @@ var duoshuoQuery = {short_name:"jucsinyu"};
     ds.charset = 'UTF-8';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
+  (function(window,$){
+    var C = {};
+    C.$nav = $('.nav');
+    C.$window = $(window);
+    C.$header= $('.site-header');
+
+    var initTOP = C.$nav.offset().top + C.$nav.height();
+    //复制nav
+    var cnav = C.$nav.clone(true);
+
+    C.$window.on('scroll', function() {
+      if (C.$window.scrollTop() > initTOP) {
+        //cnav设置fix
+        C.$header.append(cnav);
+        cnav.css({
+          position:'fixed',
+          top:0,
+          'z-index':99
+        })
+      }else{
+        cnav.remove();
+      }
+    });
+
+    C.$window.scroll();
+  })(window,$);
 </script>
 <!--多说js加载结束，一个页面只需要加载一次 -->
 <footer class="site-footer">
