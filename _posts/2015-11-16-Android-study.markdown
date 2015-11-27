@@ -17,15 +17,15 @@ categories: jekyll update
 考察要点：能够初始化一个新项目，能够真机运行。
 3. 看完**《 第一行代码 》** ，学完相应的知识点和敲完相应的练习。  
 **Android 基础知识点**：
-![test](http://7xofac.com1.z0.glb.clouddn.com/android基础知识点.png) 
-考察要点：   
+![test](http://7xofac.com1.z0.glb.clouddn.com/android基础知识点.png)   
+
+**考察要点**：   
 （1）熟练创建程序，了解项目的基本结构，了解 Android 的日志工具，学会使用 Intent ,熟悉四种基本布局，熟悉四大组件的生命周期，熟悉使用常用控件，会创建自定义控件，能够快速的构建出自己的设计出来的界面，熟练使用碎片。   
 （2）熟练使用广播，注册，接收，学会使用 `git` 工具，能够创建代码仓库，提交本地代码，学会使用 sharePreferences 保存键值数据，能够熟悉使用 `SQlite `进行数据存储，学会使用内容提供器，实现跨程序的数据共享，能够获取联系人，并且采用自定义列表将其显示。   
 （3）学会使用 Android 的通知，能够通过代码接受发短信，能够调用摄像头，相册，播放多媒体文件，学会使用 server ,采用后台子线程更新UI，采用异步，AsyncTask ,能够后台定时的执行任务。   
 能够使用手机的各类传感器，学会编写测试用例，进行单元测试。
 4. 尝试整合知识点，做出一个 demo 集合，整合学习到知识点。
 考察要点：自主完成个人 APP ，结合 Android 基础知识，网络编程，完成一个完整的 mini 项目。   
-
 **建议学习博客：**
 <a href="http://www.marschen.com/portal.php"> marschen 的 Android 教学</a>
 
@@ -37,8 +37,9 @@ categories: jekyll update
 1. Android进阶书籍：《 Android 高级编程4》，《精通 Android 4》，《 Android 开发艺术探索》
 2. 继续夯实java,《 Java 核心技术卷二》，《 Java 编程思想》
 3. 扩展网络编程内容,《 Java 网络编程》,《深入理解 Android 网络编程》
-4. 扩展基础知识面：《大话数据结构》，《大话设计模式》   
-**建议学习博客：**  
+4. 扩展基础知识面：《大话数据结构》，《大话设计模式》。
+   
+**建议学习博客：**   
 <a href="http://over140.cnblogs.com/">农民伯伯</a> <a href="http://byandby.iteye.com/ ">低级写手</a> <a href="http://www.csdn.net/article/2011-08-30/303833 "> CSDN 博文精选： Android 系列开发博客资源汇总</a>
 
 ##如何向Android小牛迈进? 
