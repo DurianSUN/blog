@@ -207,6 +207,7 @@
 }
 
 .post-meta {
+    text-decoration:none;
     margin-left: 0px;
     font-size: $small-font-size;
     color: $grey-color;
@@ -215,12 +216,14 @@
 }
 
 .post-link {
+    text-decoration:none;
     display: block;
     font-size: 23px;
     font-family : Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", "Times New Roman", serif;
 }
 ul.post-list {
     padding:0px;
+    text-decoration:none;
 }
 
 
