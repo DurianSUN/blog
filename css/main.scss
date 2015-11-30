@@ -1,34 +1,40 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+-
+-
+-
+#
+Only the main Sass file needs front matter
+
+(
+the dashes are enough
+
+)
+-
+-
+-
 @charset "utf-8";
-
-
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size: 16px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit: 30px;
 
-$text-color:       #111;
+$text-color: #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color: #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    1020px;
+$content-width: 1020px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
+$on-palm: 600px;
+$on-laptop: 800px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -38,67 +44,68 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
-.fr{
-    float:right;
+@import "base",
+"layout",
+"syntax-highlighting";
+.fr {
+  float: right;
 }
-.fl{
-    float:left;
+
+.fl {
+  float: left;
 }
+
 .clear {
-    clear: both;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
+  clear: both;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 .head {
-    width: 100%;
-    height: 260px;
-    background-size: 600px;
+  width: 100%;
+  height: 260px;
+  background-size: 600px;
 }
-html,body{
-    width: 100%;
-    overflow-x: hidden
+
+html, body {
+  width: 100%;
+  overflow-x: hidden
 }
+
 .head-content {
-    width: 20%;
-    min-width:300px;
-    height: 215px;
-    margin: 0 auto; 
-    overflow: hidden;
+  width: 20%;
+  min-width: 300px;
+  height: 215px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .head-portrait {
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    background: #fff;
-    margin: 20px 10px 10px 100px;
-    overflow: hidden;
-    float: left;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background: #fff;
+  margin: 20px 10px 10px 100px;
+  overflow: hidden;
+  float: left;
 }
-.head-portrait-pic{
-    margin:3px 3px 3px 3px;
-    width:120px;
-    height: 120px;
-    border-radius: 50%;
+
+.head-portrait-pic {
+  margin: 3px 3px 3px 3px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
 
 .head-name {
-  font-family: Lato,"Helvetica Neue","Segoe UI",Helvetica,Arial,sans-serif;
+  font-family: Lato, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   margin: 0 auto;
@@ -109,54 +116,59 @@ html,body{
 }
 
 .nav {
-    background:#336699;
-    width: 100%;
-    height: 45px;
+  background: #336699;
+  width: 100%;
+  height: 45px;
 
 }
+
 .nav li:hover {
-    background: #0099CC
+  background: #0099CC
 
 }
 
-.head-bg{
-    position:absolute;
-    left:0;
-    top:0;
-    min-width:1200px;
-    z-index:-1;
+.head-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 1200px;
+  z-index: -1;
 }
-.spe-width{
-    min-width:130px;
+
+.spe-width {
+  min-width: 130px;
 }
+
 .nav-content {
-    max-width: 900px;
-    min-widht: 220px;    
-    margin: 0 auto;         
-    float: CENTER;
+  max-width: 900px;
+  min-widht: 220px;
+  margin: 0 auto;
+  float: CENTER;
 }
 
 .nav li {
-    float: left;
-    padding: 10px 0;
-    height: 45px;
-    width:33%;
-    min-width:50px;
-    font-size: 18px;
-    text-align: center;
-    color: #fff;
-    list-style-type:none;
+  float: left;
+  padding: 10px 0;
+  height: 45px;
+  width: 33%;
+  min-width: 50px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  list-style-type: none;
 }
-.nav li a{
-     color:#fff;
-     text-decoration :none;
-    font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+
+.nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 
 .nav-about {
-    float: right;
+  float: right;
 }
-.content-style{
+
+.content-style {
   border-radius: 4px;
   max-width: 1000px;
   min-widht: 220px;
@@ -166,9 +178,10 @@ html,body{
   color: #555;
   background: #fff;
   font-size: 1px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-.page-head-style{
+
+.page-head-style {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -179,8 +192,9 @@ html,body{
   font-family: 'Lato', 'Helvetica Neue', sans-serif;
   font-size: 16px;
 }
-.visit-head{
+
+.visit-head {
   font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  margin-left:40px;
+  margin-left: 40px;
 
 }

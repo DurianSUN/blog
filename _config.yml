@@ -18,6 +18,7 @@ url: "http://jucsinyu.com" # the base hostname & protocol for your site
 twitter_username: DurianSUN
 github_username:  DurianSUN
 encoding: utf-8
-
+kramdown:
+  input: GFM
 # Build settings
 markdown: kramdown

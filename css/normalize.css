@@ -53,7 +53,6 @@ audio:not([controls]) {
     display: none;
 }
 
-
 /* =============================================================================
    Base
    ========================================================================== */
@@ -91,7 +90,6 @@ body {
     margin: 0;
 }
 
-
 /* =============================================================================
    Links
    ========================================================================== */
@@ -113,7 +111,6 @@ a:hover,
 a:active {
     outline: 0;
 }
-
 
 /* =============================================================================
    Typography
@@ -269,7 +266,6 @@ sub {
     bottom: -0.25em;
 }
 
-
 /* =============================================================================
    Lists
    ========================================================================== */
@@ -309,7 +305,6 @@ nav ol {
     list-style-image: none;
 }
 
-
 /* =============================================================================
    Embedded content
    ========================================================================== */
@@ -333,7 +328,6 @@ svg:not(:root) {
     overflow: hidden;
 }
 
-
 /* =============================================================================
    Figures
    ========================================================================== */
@@ -344,12 +338,11 @@ svg:not(:root) {
 
 figure {
     margin: 0;
-	-webkit-margin-before: 0;
-	-webkit-margin-after: 0;
-	-webkit-margin-start: 0;
-	-webkit-margin-end: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
 }
-
 
 /* =============================================================================
    Forms
@@ -424,7 +417,7 @@ input[type="reset"],
 input[type="submit"] {
     cursor: pointer; /* 1 */
     -webkit-appearance: button; /* 2 */
-    *overflow: visible;  /* 3 */
+    *overflow: visible; /* 3 */
 }
 
 /*
@@ -493,7 +486,6 @@ textarea {
     vertical-align: top; /* 2 */
 }
 
-
 /* =============================================================================
    Tables
    ========================================================================== */
@@ -506,7 +498,12 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 /* Addition */
 /* Apply a natural box layout model to all elements */
 /* Read this post by Paul Irish: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
- * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
