@@ -8,8 +8,10 @@ categories: jekyll update
 ---
 *介绍Android学习的方法的路线和推荐相应的学习书籍和视频*  
 
-## 如何Android入门？
+如何Android入门？
 ---------------
+----------
+
  1. 需要Java 基础（越扎实越好）：   
 考察要点：面对对象基础，IO ，多线程，集合框架。  
 建议看视频：《 Java 4 android 》 ，书籍：《 Java 核心技术卷一》
@@ -31,8 +33,9 @@ categories: jekyll update
 
 
 
-##如何Android初步进阶？
+如何Android初步进阶？
 ----------------
+----------
 
 1. Android进阶书籍：《 Android 高级编程4》，《精通 Android 4》，《 Android 开发艺术探索》
 2. 继续夯实java,《 Java 核心技术卷二》，《 Java 编程思想》
@@ -42,8 +45,10 @@ categories: jekyll update
 **建议学习博客：**   
 <a href="http://over140.cnblogs.com/">农民伯伯</a> <a href="http://byandby.iteye.com/ ">低级写手</a> <a href="http://www.csdn.net/article/2011-08-30/303833 "> CSDN 博文精选： Android 系列开发博客资源汇总</a>
 
-##如何向Android小牛迈进? 
-----------------  
+如何向Android小牛迈进? 
+----------------
+----------
+
 1. 性能优化书籍：《精妙绝伦的 AndroidUI 设计》，《 Android 应用性能优化》   
 2. 窥探Android底层和原理，《 Android 安全与逆向分析》，《 Android 设计与实现》，《 Android 技术内幕-系统卷》，重点关注罗升阳的源码分析   
 <a href="http://blog.csdn.net/Luoshengyang?viewmode=contents.com">老罗的 Android 开发</a>   
