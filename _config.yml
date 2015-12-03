@@ -22,3 +22,4 @@ kramdown:
   input: GFM
 # Build settings
 markdown: kramdown
+paginate: 1
