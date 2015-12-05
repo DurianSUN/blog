@@ -10,7 +10,7 @@ domain_name: Jucsinsun
 google_analytics: UA-52446115-1
 
 source: source
-destination: blogs/_site
+destination: _site
 asset_path: /source/assets/images
 
 # cover: /assets/images/header-cover.png
