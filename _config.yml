@@ -10,7 +10,7 @@ domain_name: Jucsinsun
 google_analytics: UA-52446115-1
 
 source: source
-destination: _site
+destination: blogs/_site
 asset_path: /source/assets/images
 
 # cover: /assets/images/header-cover.png
@@ -49,7 +49,7 @@ thought:
 # Plugin: jekyll-assets
 assets:
   dirname: /assets
-  baseurl: /blog/assets/ # change to /assets/
+  baseurl: /blogs/assets/ # change to /assets/
   sources:
     - assets/images
     - assets/fonts
