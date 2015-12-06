@@ -5,7 +5,7 @@ require "bundler/setup"
 require "jekyll"
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "nandomoreirame/nandomoreira-jekyll-theme"
+GITHUB_REPONAME = "DurianSUN/blogs"
 GITHUB_REPO_BRANCH = "gh-pages"
 
 SOURCE = "source/"
