@@ -1,16 +1,12 @@
 <section class="banner">
 
-    <img src="{{'http://7xofac.com1.z0.glb.clouddn.com/jucsin-logologo.png' }}" alt="author thumb"
-         class="dot animated hinge fadeInDown">
+  <img src="{{ site.author.image | prepend: site.baseurl  }}" alt="author thumb" class="dot animated hinge fadeInDown">
 
-    <h2 class="animated hinge fadeInDown" itemscope itemtype="http://schema.org/Person">Hello, my name is <strong
-            itemprop="name">{{ site.name }}</strong>I am an Android coder<em itemprop="jobTitle"></em> and i like
-        basketball</h2>
+  <h2 class="animated hinge fadeInDown" itemscope itemtype="http://schema.org/Person">Hello, my name is <strong itemprop="name">{{ site.name }}</strong>I am <em itemprop="jobTitle">Front-end</em> and like coffee!</h2>
 
-    <nav class="actions">
-        <a href="" class="button ghost">freeSoftware</a>
-        <a href="" class="button ghost">Android</a>
-        <a href="{{ "/about" | prepend: site.baseurl }}" class="button ghost">About</a>
-    </nav>
+  <nav class="actions">
+    <a href="{{ "/about" | prepend: site.baseurl }}" class="button ghost">About</a>
+    <a href="{{ site.repo }}/archive/master.zip" class="button ghost">Download</a>
+  </nav>
 
 </section>

@@ -30,29 +30,32 @@
 <meta name="description" content="{{ page_description }}">
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.meta_keywords }}{% endif %}">
 
-<!--&lt;!&ndash; Social: Facebook / Open Graph &ndash;&gt;-->
-<!--<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">-->
-<!--<meta property="og:title" content="{{ page_title }}">-->
-<!--<meta property="og:description" content="{{ page_description }}">-->
-<!--<meta property="og:site_name" content="{{ site.author.name }}">-->
-<!--<meta property="og:locale" content="pt_BR">-->
-<!--<meta property="og:type" content="website">-->
-<!--<meta property="og:author" content="{{ site.author.facebook }}">-->
-<!--<meta property="og:image" content="{{ page_image }}">-->
+<!-- Social: Facebook / Open Graph -->
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:site_name" content="{{ site.author.name }}">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website">
+<meta property="og:author" content="{{ site.author.facebook }}">
+<meta property="og:image" content="{{ page_image }}">
 
-<!--&lt;!&ndash; Social: Twitter &ndash;&gt;-->
-<!--<meta name="twitter:card" content="summary_large_image">-->
-<!--<meta name="twitter:site" content="@nandomoreirame">-->
-<!--<meta name="twitter:domain" content="{{ site.url }}">-->
-<!--<meta name="twitter:title" content="{{ page_title }}">-->
-<!--<meta name="twitter:description" content="{{ page_description }}">-->
-<!--<meta name="twitter:image:src" content="{{ page_image }}">-->
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nandomoreirame">
+<meta name="twitter:domain" content="{{ site.url }}">
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_description }}">
+<meta name="twitter:image:src" content="{{ page_image }}">
 
 <!-- Favicons -->
-<link rel="apple-touch-icon" sizes="114x114" href="{{'/source/assets/images/ico/apple-touch-icon-114.png' }}">
-<link rel="apple-touch-icon" sizes="72x72" href="{{ '/source/assets/images/ico/apple-touch-icon-72.png' }}">
-<link rel="apple-touch-icon" href="{{ '/source/assets/images/ico/apple-touch-icon-57.png'  }}">
-<link rel="shortcut icon" href="{{ '/source/assets/imagesassets/images/ico/favicon.png' }}">
+<link rel="apple-touch-icon" sizes="114x114"
+      href="{{ 'ico/apple-touch-icon-114.png' | asset_path | prepend: site.baseurl | prepend: site.url }}">
+<link rel="apple-touch-icon" sizes="72x72"
+      href="{{ 'ico/apple-touch-icon-72.png' | asset_path | prepend: site.baseurl | prepend: site.url }}">
+<link rel="apple-touch-icon"
+      href="{{ 'ico/apple-touch-icon-57.png' | asset_path | prepend: site.baseurl | prepend: site.url }}">
+<link rel="shortcut icon" href="{{ 'ico/favicon.png' | asset_path | prepend: site.baseurl | prepend: site.url }}">
 
 <!-- rel prev and next -->
 {% if paginator.previous_page %}
@@ -63,8 +66,9 @@
 {% endif %}
 
 <!-- Canonical link tag -->
-<!--<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">-->
-<!--<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">-->
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}"
+      href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
 {% stylesheet main %}
 {% javascript modernizr-custom data-cfasync="false" %}

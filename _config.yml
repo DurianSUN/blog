@@ -3,13 +3,14 @@ markdown    : kramdown
 #highlighter : pygments
 
 paginate: 2 #6
+#comments: true
 paginate_path: "/page/:num"
 
-baseurl:  # change to empty string ""
-domain_name: Jucsinsun
+baseurl: "" # change to empty string ""
+domain_name: nandomoreira.me
 google_analytics: UA-52446115-1
 
-source: source
+source:      source
 destination: _site
 asset_path: /assets/images
 
@@ -17,34 +18,32 @@ asset_path: /assets/images
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
-name: Jucsinsun
+name: Fernando Moreira
 title: Fernando Moreira | Desenvolvimento Web e tudo mais..
 description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
 meta_description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
 meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
-url: http://jucsinyu.com
-production_url: http://jucsinyu.com
+url: http://nandomoreira.me
+production_url: http://nandomoreira.me
 repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
-#disqus_shortname: "fernandomoreira"
+disqus_shortname: "fernandomoreira"
 rss_path: source/
 author:
   name      : Fernando Moreira
   image     : /assets/images/author.jpg
-  email     : 1033784992@qq.com
-  url       : http://jucsinyu.com
+  email     : nandomoreira.me@gmail.com
+  url       : http://nandomoreira.me
   facebook  : http://facebook.com/fernando.dev
   twitter   : http://twitter.com/nandomoreirame
   instagram : http://instagram.com/nandomoreira.me
-  github    : https://github.com/DurianSUN
-  linkedin  :
+  github    : http://github.com/nandomoreirame
+  linkedin  : http://linkedin.com/in/nandomoreirame
   bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
 
 # thought
 thought:
-  text: I seem always to want to make things
-        from the thing that is commonest in nature
-        and with the least waste of energy.
-  author: Sara Turing
+  text: I have no special talent. I am only passionately curious.
+  author: Albert Einstein
 
 # Plugin: jekyll-assets
 assets:
@@ -63,11 +62,10 @@ compress_html:
   clippings: all
   comments: all
   endings: all
-  profile: false
+#  profile: false
   ignore:
     envs: all
 
-encoding: utf-8
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
 gems:
 - jekyll-paginate
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
