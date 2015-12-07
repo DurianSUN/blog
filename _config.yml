@@ -2,6 +2,9 @@ permalink   : /:title/
 markdown    : kramdown
 #highlighter : pygments
 
+
+
+
 paginate: 2 #6
 #comments: true
 paginate_path: "/page/:num"
