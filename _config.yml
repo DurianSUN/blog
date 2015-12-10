@@ -4,7 +4,7 @@ markdown    : kramdown
 
 paginate: 2 #6
 paginate_path: "/page/:num"
-#gems: [jekyll-pagination-0.0.4]
+gems: [jekyll-pagination]
 
 baseurl: "" # change to empty string ""
 domain_name: Jucsinsun
@@ -42,10 +42,8 @@ author:
 
 # thought
 thought:
-  text: I seem always to want to make things
-        from the thing that is commonest in nature
-        and with the least waste of energy.
-  author: Sara Turing
+  text: day day up
+  author: jucsin
 
 # Plugin: jekyll-assets
 assets:
