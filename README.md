@@ -1,10 +1,4 @@
----
-layout: page
-title: 关于这个博客...
-permalink: /about/
----
-   
-- 嗨，我是 Jucsin（孙浩鑫），欢迎来到我的新博客。
+ - 嗨，我是 Jucsin（孙浩鑫），欢迎来到我的新博客。
 - **技术：**   
 这个博客采用的是`Jekyll`框架进行文本处理，GitHub 作为 `host`服务器，自动生成`gitPages`主页，购买了阿里云三年的域名,每次写完代码只需要往`github`里`Push`就是可以了，网站将自动跟新，采用的[Fernando Moreira](https://github.com/nandomoreirame/nandomoreira-jekyll-theme)的模板，其中有很多适配的问题，最终都得以解决。
 - **目的：**   
