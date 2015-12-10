@@ -23,7 +23,7 @@ title: Jucsis's blog
 description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
 meta_description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
 meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
-url: http://nandomoreira.me
+url: http://jucsinyu.com
 production_url: http://nandomoreira.me
 repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
 #disqus_shortname: "fernandomoreira"
@@ -48,7 +48,7 @@ thought:
 # Plugin: jekyll-assets
 assets:
   dirname: /assets
-  baseurl: /blog/assets/ # change to /assets/
+  baseurl: /assets/ # change to /assets/
   sources:
     - assets/images
     - assets/fonts
@@ -68,4 +68,4 @@ compress_html:
 
 encoding: utf-8
 
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "Rakefile", "changelog.md"]

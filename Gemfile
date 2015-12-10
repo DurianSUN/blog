@@ -8,5 +8,4 @@ group :development do
   gem 'sass', '~> 3.4.10'
   gem 'jekyll', '~> 3.0.1'
   gem 'jekyll-assets'
-  gem 'jekyll-pagination', '~> 0.0.4'
 end
