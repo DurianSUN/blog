@@ -2,10 +2,10 @@
 data-thread-key: 随手记录
 layout: post
 title:  "近期回顾-记录"
-date:   2015-11-27 16:11:49 +0800 
+date:   2015-11-1 16:11:49 +0800 
 categories: jekyll update
 tags: work 
-paginate_path: "page:1"
+paginate_path: "page:2"
 ---
 由于本人忘性比较大，并且容易陷入某件事，所以在此处进行记录自己最近要干的事情~
 
