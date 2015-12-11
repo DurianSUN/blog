@@ -1,0 +1,71 @@
+permalink   : /:title/
+markdown    : kramdown
+#highlighter : pygments
+
+paginate: 2 #6
+#comments: true
+paginate_path: "/page/:num"
+
+baseurl: "" # change to empty string ""
+domain_name: nandomoreira.me
+google_analytics: UA-52446115-1
+
+source:      source
+destination: _site
+asset_path: /assets/images
+
+# cover: /assets/images/header-cover.png
+
+# site title, description, meta_description, meta_keywords
+# Details for the RSS feed generator
+name: Jucsin Sun
+title: Jucsin's blog
+description: "Jucsin's home for Android and life"
+meta_description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
+meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
+url: http://nandomoreira.me
+production_url: http://jucsinyu.com/
+repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
+disqus_shortname: "jucsinsun"
+rss_path: source/
+author:
+  name      : Jucsin Sun
+  image     : /assets/images/author.jpg
+  email     : nandomoreira.me@gmail.com
+  url       : http://jucsinyu.com
+  facebook  : http://facebook.com/fernando.dev
+  twitter   : http://twitter.com/nandomoreirame
+  instagram : http://instagram.com/nandomoreira.me
+  github    : http://github.com/nandomoreirame
+  linkedin  : http://linkedin.com/in/nandomoreirame
+  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
+
+# thought
+thought:
+  text: I have no special talent. I am only passionately curious.
+  author: Albert Einstein
+
+# Plugin: jekyll-assets
+assets:
+  dirname: /assets
+  baseurl: /assets/ # change to /assets/
+  sources:
+    - assets/images
+    - assets/fonts
+    - assets/css
+    - assets/js
+#  cache: true
+  gzip: [ text/css, application/javascript ]
+
+# Compress HTML
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+#  profile: false
+  ignore:
+    envs: all
+
+exclude: ["gulp", "node_modules","config.rb", "package.json", "gulpfile.js", "README.md", "Rakefile"]
+gems:
+- jekyll-paginate
