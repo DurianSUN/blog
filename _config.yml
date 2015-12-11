@@ -29,16 +29,16 @@ repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
 disqus_shortname: "jucsinsun"
 rss_path: source/
 author:
-  name      : Jucsin Sun
+  name      : JucsinSun
   image     : /assets/images/author.jpg
-  email     : nandomoreira.me@gmail.com
+  email     : 1033784992@qq.com
   url       : http://jucsinyu.com
-  facebook  : http://facebook.com/fernando.dev
-  twitter   : http://twitter.com/nandomoreirame
-  instagram : http://instagram.com/nandomoreira.me
-  github    : http://github.com/nandomoreirame
-  linkedin  : http://linkedin.com/in/nandomoreirame
-  bio       : ""
+  facebook  :
+  twitter   :
+  instagram :
+  github    : https://github.com/DurianSUN/blog
+  linkedin  :
+  bio       : "I have searched a thousand years,And I have cried a thousand tears.I found everything I need,You are everything to me. Barry Fitzpatrick"
 
 # thought
 thought:
