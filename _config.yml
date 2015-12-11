@@ -38,12 +38,12 @@ author:
   instagram : http://instagram.com/nandomoreira.me
   github    : http://github.com/nandomoreirame
   linkedin  : http://linkedin.com/in/nandomoreirame
-  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
+  bio       : ""
 
 # thought
 thought:
-  text: I have no special talent. I am only passionately curious.
-  author: Albert Einstein
+  text: Veni vidi vici
+  author: Gaius Julius Caesar
 
 # Plugin: jekyll-assets
 assets:
