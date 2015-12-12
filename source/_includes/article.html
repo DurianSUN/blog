@@ -43,10 +43,10 @@
             de {{ post.date | date: "%Y" }}
         </time>
 
-    <!--<span>-->
-      <!--<i class="fa fa-comments"></i> <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"-->
-                                        <!--data-disqus-identifier="{{ post.id }}">Leave a comment</a>-->
-    <!--</span>-->
+    <span>
+      <i class="fa fa-comments"></i> <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"
+                                        data-disqus-identifier="{{ post.id }}">Leave a comment</a>
+    </span>
 
     <span>
         {% if post.categories.size > 0 %}
