@@ -2,21 +2,51 @@
     <header class="post-header">
         <h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to {{ post.title }}">{{
             post.title }}</a></h1>
+
+        {% if post.cover %}
+        <figure class="post-thumb">
+            <a href="{{ post.url }}" title="Permalink para: {{ post.title }}">
+                <img src="{{ post.cover }}" alt="imagem de {{ post.title }}">
+            </a>
+        </figure>
+        {% endif %}
     </header>
 
     <p><a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to {{ post.title }}" class="read-more">{{
-        post.content | strip_html | truncatewords: 50 }}</a></p>
+        post.content | strip_html | truncatewords: 27 }}<em> Continue read &raquo;</em></a></p>
 
     <footer class="post-meta">
-        <time datetime="{{ post.date | date:" %Y-%m-%d
-        " }}">
-        <i class="fa fa-calendar-o"></i> {{ page.date | date:"%Y-%m-%d" }}
+        <!--<time datetime="{{ post.date | date:" %Y-%m-%d-->
+        <!--" }}">-->
+        <!--<i class="fa fa-calendar-o"></i> {{ page.date | date:"%Y-%m-%d" }}-->
+        <!--</time>-->
+
+        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+            <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
+            <i class="fa fa-calendar-o"></i>
+            {% assign m = post.date | date: "%-m" %}
+            {{ post.date | date: "%-d" }} de
+            {% case m %}
+            {% when '1' %}Janeiro
+            {% when '2' %}Fevereiro
+            {% when '3' %}Mar?o
+            {% when '4' %}Abril
+            {% when '5' %}Maio
+            {% when '6' %}Junho
+            {% when '7' %}Julho
+            {% when '8' %}Agosto
+            {% when '9' %}Setembro
+            {% when '10' %}Outubro
+            {% when '11' %}Novembro
+            {% when '12' %}Dezembro
+            {% endcase %}
+            de {{ post.date | date: "%Y" }}
         </time>
 
-    <span>
-      <i class="fa fa-comments"></i> <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"
-                                        data-disqus-identifier="{{ post.id }}">Leave a comment</a>
-    </span>
+    <!--<span>-->
+      <!--<i class="fa fa-comments"></i> <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"-->
+                                        <!--data-disqus-identifier="{{ post.id }}">Leave a comment</a>-->
+    <!--</span>-->
 
     <span>
         {% if post.categories.size > 0 %}

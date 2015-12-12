@@ -4,9 +4,10 @@ layout: post
 title:  "讨论 Activity 的生命周期"
 date:   2015-11-15 15:56:51 +0800
 categories: jekyll update
+cover: 'http://7xofac.com1.z0.glb.clouddn.com/Android_Activity_life.jpg'
 ---
 Activity 的作为 Android 重要单元之一（其他元件包括：Service,BroadcastReceiver和ContentProvider）其重要性自然不必多说， 今天就来Activity的生命周期来讨论一下
-![test](http://7xofac.com1.z0.glb.clouddn.com/Android_Activity_life.jpg)
+生命周期（参考封面图案）。
 
 通过这张图,我们可以看到整个 Activity 的生命流程,总结几点:
 

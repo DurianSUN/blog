@@ -5,6 +5,7 @@ title:  " Android 的学习路线（入门到进阶）"
 date:   2015-11-15 23:56:51 +0800
 categories: jekyll update
 paginate_path: "page:1"
+cover: 'http://7xofac.com1.z0.glb.clouddn.com/android基础知识点.png'
 ---
 
 *介绍Android学习的方法的路线和推荐相应的学习书籍和视频*  
@@ -19,9 +20,8 @@ paginate_path: "page:1"
 2. 搭建Android的环境  
 考察要点：能够初始化一个新项目，能够真机运行。
 3. 看完**《 第一行代码 》** ，学完相应的知识点和敲完相应的练习。  
-**Android 基础知识点**：
-![test](http://7xofac.com1.z0.glb.clouddn.com/android基础知识点.png)   
-
+**Android 基础知识点**：   
+参考封面图片。
 **考察要点**：   
 （1）熟练创建程序，了解项目的基本结构，了解 Android 的日志工具，学会使用 Intent ,熟悉四种基本布局，熟悉四大组件的生命周期，熟悉使用常用控件，会创建自定义控件，能够快速的构建出自己的设计出来的界面，熟练使用碎片。   
 （2）熟练使用广播，注册，接收，学会使用 `git` 工具，能够创建代码仓库，提交本地代码，学会使用 sharePreferences 保存键值数据，能够熟悉使用 `SQlite `进行数据存储，学会使用内容提供器，实现跨程序的数据共享，能够获取联系人，并且采用自定义列表将其显示。   
