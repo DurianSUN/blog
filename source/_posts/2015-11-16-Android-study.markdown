@@ -32,8 +32,6 @@ cover: 'http://7xofac.com1.z0.glb.clouddn.com/android基础知识点.png'
 **建议学习博客：**
 <a href="http://www.marschen.com/portal.php"> marschen 的 Android 教学</a>
 
-
-
 如何Android初步进阶？
 ----------------
 ----------
