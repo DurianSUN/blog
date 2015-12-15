@@ -51,14 +51,18 @@ comments: true
   {{content}}
 
   <footer class="post-footer">
-    {% if site.author %}
-    <section class="author">
-      <h4>{{ site.author.name }}</h4>
-      <p>{{ site.author.bio }}</p>
-    </section>
-    {% endif %}
+    <p>
+    <span id="busuanzi_container_page_pv">
+      本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>
+    </p>
+    <!--{% if site.author %}-->
+    <!--<section class="author">-->
+      <!--<h4>{{ site.author.name }}</h4>-->
+      <!--<p>{{ site.author.bio }}</p>-->
+    <!--</section>-->
+    <!--{% endif %}-->
 
-    {% include share.html %}
+
 
     {% if site.comments and page.comments %}
       {% include comments.html %}
@@ -68,6 +72,7 @@ comments: true
          prepend: site.baseurl }}></div>
     <!-- 多说评论框 end -->
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+
     <script type="text/javascript">
       var duoshuoQuery = {short_name: "jucsinyu"};
       (function () {

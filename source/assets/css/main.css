@@ -684,7 +684,7 @@ body:not(.single) .post .post-title:focus, body:not(.single) .post .post-title:h
 .post-footer {
     position: relative;
     margin: 1.666667em 0 0;
-    padding: 2.222222em 0 0;
+    padding: 1em 0 0;
     border-top: #f1f2f3 1px solid
 }
 
