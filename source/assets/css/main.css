@@ -304,7 +304,7 @@ pre code {
 }
 
 ol, ul {
-    margin: 0 0 2em
+    margin: 0 0 0em
 }
 
 .scroll-down, .scroll-down:focus, .scroll-down:hover {
@@ -349,7 +349,7 @@ ol li {
 
 ul {
     list-style: disc;
-    padding-left: 1.2em
+    padding-left: 0em
 }
 
 .navbar ul, ul.actions, ul.alt, ul.icons {
