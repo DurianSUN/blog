@@ -8,7 +8,7 @@ comments: true
 paginate_path: "/page/:num"
 
 baseurl: "" # change to empty string ""
-domain_name: nandomoreira.me
+domain_name: Jucsinyu.com
 google_analytics: UA-52446115-1
 
 source:      source
@@ -24,7 +24,7 @@ title: Jucsin's blog
 description: "Jucsin's home for Android and life"
 meta_description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
 meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
-url: http://nandomoreira.me
+url: http://jucsinyu.com
 production_url: http://jucsinyu.com/
 repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
 disqus_shortname: "jucsinsun"
