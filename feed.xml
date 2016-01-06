@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jucsin&#39;s blog</title>
+    <description>Jucsin&#39;s home for Android and life</description>
+    <link>http://jucsinyu.com/</link>
+    <atom:link href="http://jucsinyu.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 06 Jan 2016 19:23:09 +0800</pubDate>
+    <lastBuildDate>Wed, 06 Jan 2016 19:23:09 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>2015 数字媒体技术研究所招新- Android 组演讲</title>
+        <description>&lt;p&gt;今年的实验室进行招新,这是我在招新宣讲会上的演讲 PPT &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;开场画面 (上图)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;围绕三个主题进行演讲&lt;br /&gt;
+&lt;img src=&quot;http://7xofac.com1.z0.glb.clouddn.com/幻灯片2.png&quot; alt=&quot;test&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;大体介绍介绍大学几年的经历
+&lt;img src=&quot;http://7xofac.com1.z0.glb.clouddn.com/幻灯片3.png&quot; alt=&quot;test&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;介绍自己负责和参与开发的 APP 项目,以及相关的学习心得
+&lt;img src=&quot;http://7xofac.com1.z0.glb.clouddn.com/幻灯片4.png&quot; alt=&quot;test&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;告诉大家,来到实验室能够做什么,收获什么
+&lt;img src=&quot;http://7xofac.com1.z0.glb.clouddn.com/幻灯片5.png&quot; alt=&quot;test&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;end
+&lt;img src=&quot;http://7xofac.com1.z0.glb.clouddn.com/幻灯片6.png&quot; alt=&quot;test&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 18 Nov 2015 16:13:51 +0800</pubDate>
+        <link>http://jucsinyu.com/speak/</link>
+        <guid isPermaLink="true">http://jucsinyu.com/speak/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title> Android 的学习路线（入门到进阶）</title>
+        <description>&lt;p&gt;&lt;em&gt;介绍Android学习的方法的路线和推荐相应的学习书籍和视频&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;android&quot;&gt;如何Android入门？&lt;/h2&gt; &lt;hr /&gt; &lt;ol&gt; &lt;li&gt;需要Java 基础（越扎实越好）： &lt;br /&gt; 考察要点：面对对象基础，IO ，多线程，集合框架。&lt;br /&gt; 建议看视频：《 Java 4 android 》 ，书籍：《 Java 核心技术卷一》&lt;/li&gt; &lt;li&gt;搭建Android的环境&lt;br /&gt; 考察要点：能够初始化一个新项目，能够真机运行。&lt;/li&gt; &lt;li&gt;看完&lt;strong&gt;《 第一行代码 》&lt;/strong&gt; ，学完相应的知识点和敲完相应的练习。&lt;br /&gt; &lt;strong&gt;Android 基础知识点&lt;/strong&gt;： &lt;br /&gt; 参考封面图片。 &lt;strong&gt;考察要点&lt;/strong&gt;： &lt;br /&gt; （1）熟练创建程序，了解项目的基本结构，了解 Android 的日志工具，学会使用 Intent ,熟悉四种基本布局，熟悉四大组件的生命周期，熟悉使用常用控件，会创建自定义控件，能够快速的构建出自己的设计出来的界面，熟练使用碎片。 &lt;br /&gt; （2）熟练使用广播，注册，接收，学会使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt; 工具，能够创建代码仓库，提交本地代码，学会使用 sharePreferences 保存键值数据，能够熟悉使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;SQlite &lt;/code&gt;进行数据存储，学会使用内容提供器，实现跨程序的数据共享，能够获取联系人，并且采用自定义列表将其显示。 &lt;br /&gt; （3）学会使用 Android 的通知，能够通过代码接受发短信，能够调用摄像头，相册，播放多媒体文件，学会使用 server ,采用后台子线程更新UI，采用异步，AsyncTask ,能够后台定时的执行任务。 &lt;br /&gt; 能够使用手机的各类传感器，学会编写测试用例，进行单元测试。&lt;/li&gt; &lt;li&gt;尝试整合知识点，做出一个 demo 集合，整合学习到知识点。 考察要点：自主完成个人 APP ，结合 Android 基础知识，网络编程，完成一个完整的 mini 项目。 &lt;br /&gt; &lt;strong&gt;建议学习博客：&lt;/strong&gt; &lt;a href=&quot;http://www.marschen.com/portal.php&quot;&gt; marschen 的 Android 教学&lt;/a&gt;&lt;/li&gt; &lt;/ol&gt; &lt;h2 id=&quot;android-1&quot;&gt;如何Android初步进阶？&lt;/h2&gt; &lt;hr /&gt; &lt;ol&gt; &lt;li&gt;Android进阶书籍：《 Android 高级编程4》，《精通 Android 4》，《 Android 开发艺术探索》&lt;/li&gt; &lt;li&gt;继续夯实java,《 Java 核心技术卷二》，《 Java...</description>
+        <pubDate>Sun, 15 Nov 2015 23:56:51 +0800</pubDate>
+        <link>http://jucsinyu.com/Android-study/</link>
+        <guid isPermaLink="true">http://jucsinyu.com/Android-study/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>讨论 Activity 的生命周期</title>
+        <description>&lt;p&gt;Activity 的作为 Android 重要单元之一（其他元件包括：Service,BroadcastReceiver和ContentProvider）其重要性自然不必多说， 今天就来Activity的生命周期来讨论一下 生命周期（参考封面图案）。&lt;/p&gt; &lt;p&gt;通过这张图,我们可以看到整个 Activity 的生命流程,总结几点:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;每一个 Activity 被创建的时候，都要初始化,也就是回调 Oncreate() 函数。此方法在整个应用进程被终止或者整个 Activity 被销毁之前都不会被再次调用。&lt;/li&gt; &lt;li&gt;当Oncreat()函数被回调以后接着进入OnStrat(),接着有一个很特殊的状态 OnResume().然后才进入running状态,这个时候整个anctivity才会被显示到前台。&lt;/li&gt; &lt;li&gt;当 Activity 在 running 状态时跳转到新的Activity时，当前的 Activity 会先调用 OnPause()，然后第二个 Activity 进入创建状态,先 OnCreate() ,再 OnResume() .意味这第二个 Activity 进入了运行状态了。 此时第一个Activity将调用OnStop();进入停止状态。意味这进入后台状态，同理当手机点击home键使得程序进入后台时，当前Activity也最终执行Onpause()===&amp;gt;OnStop()流程。&lt;/li&gt; &lt;li&gt;当应用程序彻底关闭，整个进程断开时次 Acitivity 将彻底销毁 OnDestory() ;这种情况也发生在程序进入后台程序以后，（执行 OnStop()被其他的程序占用了内存，被系统杀掉，此时整个Activity也将被 OnDestory（）;&lt;/li&gt; &lt;li&gt;此时被 Activity 已经被销毁掉后，再次进入时，将重新新进行 OnCcreate()-====»OnStart()======&amp;gt;onResume 创建流程。&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;为了测试，我做了一个 Activity 切换的 demo , 核心代码如下:&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MainActivity&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ActionBarActivity&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TAG&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;------hxTest--------&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Button&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;finish&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;starSecondActivity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;protected&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;onCreate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bundle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;savedInstanceState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;...</description>
+        <pubDate>Sun, 15 Nov 2015 15:56:51 +0800</pubDate>
+        <link>http://jucsinyu.com/Android-lifetime/</link>
+        <guid isPermaLink="true">http://jucsinyu.com/Android-lifetime/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>近期回顾-记录</title>
+        <description>&lt;p&gt;由于本人忘性比较大，并且容易陷入某件事，所以在此处进行记录自己最近要干的事情~&lt;/p&gt; &lt;h2 id=&quot;section&quot;&gt;近期工作整理：&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;完成博客的初步搭建，完成了主页布局，色彩搭配，title动态显示，文章页面布局，最近访客，&lt;code class=&quot;highlighter-rouge&quot;&gt;head&lt;/code&gt;头像特效,文字搭配，文章列表，评论。 （11/27/2015 4:27:15 PM ）&lt;/li&gt; &lt;li&gt;自由软件的直播平台核心功能已经由&lt;a href=&quot;https://ilulu.xyz/&quot;&gt;陆神&lt;/a&gt;完成，画面清晰，流畅，不过还没有进行服务器测压，昨天心血来潮仿着写了个直播的前端界面： &lt;br /&gt; &lt;img src=&quot;http://7xofac.com1.z0.glb.clouddn.com/zhib32.jpg&quot; alt=&quot;test&quot; /&gt; &lt;br /&gt; 过了一把小瘾，不过也深深的看到了自己的不足。想要学得好，还得脚踏实地的扎实基础。（11/30/2015 9:24:04 AM ）&lt;/li&gt; &lt;li&gt;博客模块增添了&lt;code class=&quot;highlighter-rouge&quot;&gt;Android&lt;/code&gt;模块，做好了架构。&lt;/li&gt; &lt;li&gt;自由软件组织那边弹幕已经完工，今天就要合成在前端页面上。（12/1/2015 5:09:00 PM ）&lt;/li&gt; &lt;li&gt;自由软件那边的直播项目，测试版今晚就可以上线使用了。掌声给有激情的小伙伴们~！(12/3/2015 5:00:10 PM )&lt;/li&gt; &lt;li&gt;替换了新版本的blog,解决 &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt; 不能使用自定义模板的问题，采用不同的分支进行存储，将编译后的site 放在gh-pages ,源码放&lt;code class=&quot;highlighter-rouge&quot;&gt;source&lt;/code&gt; ,使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;gitHub&lt;/code&gt; 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;issues&lt;/code&gt; 和作者交流。（12/15/2015 6:36:05 PM ) &lt;br /&gt; &lt;strong&gt;纪念之前的博客&lt;/strong&gt;： &lt;img src=&quot;http://7xofac.com1.z0.glb.clouddn.com/oldbBlog.png&quot; alt=&quot;test&quot; /&gt;&lt;br /&gt; &lt;img src=&quot;http://7xofac.com1.z0.glb.clouddn.com/oldbBlog2.jpg&quot; alt=&quot;test&quot; /&gt;&lt;/li&gt; &lt;/ol&gt; &lt;h2 id=&quot;section-1&quot;&gt;近期工作需要完善：&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;博客的其他的基础功能：文章标签，阅读量，分类，友链，一键&lt;code class=&quot;highlighter-rouge&quot;&gt;Top&lt;/code&gt;等版块。&lt;/li&gt; &lt;li&gt;完成之前的&lt;code class=&quot;highlighter-rouge&quot;&gt;Android&lt;/code&gt;项目。&lt;/li&gt; &lt;li&gt;整理之前的书籍，查漏补缺。&lt;/li&gt; &lt;li&gt;写博文，每个周一篇博客，保证质量和数量。 （11/27/2015 4:27:28 PM ）&lt;/li&gt; &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Android&lt;/code&gt;视频直播客户端提上日程（11/28/2015 4:23:09 PM ）&lt;/li&gt; &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;clone&lt;/code&gt; 了&lt;code class=&quot;highlighter-rouge&quot;&gt;phpHub&lt;/code&gt; 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Android&lt;/code&gt; 版本源码来看，学习和熟悉里面使用的框架。(12/3/2015 4:59:11 PM )&lt;/li&gt; &lt;li&gt;本周内完成滚动锁屏的功能。（12/15/2015 6:36:00 PM ）&lt;/li&gt; &lt;/ol&gt; &lt;h2 id=&quot;section-2&quot;&gt;关于健身&lt;/h2&gt;...</description>
+        <pubDate>Sun, 01 Nov 2015 16:11:49 +0800</pubDate>
+        <link>http://jucsinyu.com/list/</link>
+        <guid isPermaLink="true">http://jucsinyu.com/list/</guid>
+        
+        <category>work</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

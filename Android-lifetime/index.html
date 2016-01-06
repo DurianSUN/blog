@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br">
+  <head>
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="alternate" href="http://jucsinyu.com" hreflang="pt-BR">
+<link href="http://gmpg.org/xfn/11" rel="profile">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="theme-color" content="#005344">
+<title>讨论 Activity 的生命周期 | JucsinSun</title>
+<meta name="google-site-verification" content="zS1dSn20XtA4FJYEOQLXqI0boxZdMnJ2g3beje-cl20">
+<meta name="description" content="Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript">
+<meta name="keywords" content="site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance">
+<!-- Social: Facebook / Open Graph -->
+<meta property="og:url" content="http://jucsinyu.com/Android-lifetime/">
+<meta property="og:title" content="讨论 Activity 的生命周期 | JucsinSun">
+<meta property="og:description" content="Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript">
+<meta property="og:site_name" content="JucsinSun">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website">
+<meta property="og:author" content="">
+<meta property="og:image" content="http://jucsinyu.comhttp://7xofac.com1.z0.glb.clouddn.com/Android_Activity_life.jpg">
+<!-- Social: Twitter -->
+<!--<meta name="twitter:card" content="summary_large_image">-->
+<!--<meta name="twitter:site" content="@nandomoreirame">-->
+<!--<meta name="twitter:domain" content="http://jucsinyu.com">-->
+<!--<meta name="twitter:title" content="讨论 Activity 的生命周期 | JucsinSun">-->
+<!--<meta name="twitter:description" content="Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript">-->
+<!--<meta name="twitter:image:src" content="http://jucsinyu.comhttp://7xofac.com1.z0.glb.clouddn.com/Android_Activity_life.jpg">-->
+<!-- Favicons -->
+<!--<link rel="apple-touch-icon" sizes="114x114" href="/source/assets/images/ico/apple-touch-icon-114.png">-->
+<!--<link rel="apple-touch-icon" sizes="72x72" href="/source/assets/images/ico/apple-touch-icon-72.png">-->
+<!--<link rel="apple-touch-icon" href="/source/assets/images/ico/apple-touch-icon-57.png">-->
+<!--<link rel="shortcut icon" href="/source/assets/imagesassets/images/ico/favicon.png">-->
+<!-- rel prev and next -->
+<!-- Canonical link tag -->
+<link rel="canonical" href="http://jucsinyu.com/Android-lifetime/">
+<link rel="alternate" type="application/rss+xml" title="JucsinSun" href="http://jucsinyu.com/feed.xml">
+<link type="text/css" rel="stylesheet" href="/assets/main.css">
+<script type="text/javascript" src="/assets/modernizr-custom.js" data-cfasync=false="true"></script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Website",
+  "publisher": "Jucsinyu.com",
+  "url": "http://Jucsinyu.com/",
+  "description": "Jucsin's home for Android and life"
+}
+</script>
+<!--sdsd-->
+<script type="text/javascript">
+  var disqus_shortname = 'jucsinsun',
+      baseurl          = '';
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52446115-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+    <!--<meta name="robots" content="noindex"> &lt;!&ndash;=====  Please remove it ! ! !  ======&ndash;&gt;-->
+    <!--<meta name="googlebot" content="noindex"> &lt;!&ndash;=====  Please remove it ! ! !  ======&ndash;&gt;-->
+  </head>
+  <body class=" Android-lifetime">
+    <header class="header">
+  <div class="container">
+    <h1><a href="/"><strong>Jucsinyu</strong>.com</a></h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#!" data-modal="modalSearch"><i class="fa fa-search"></i></a></li>
+        <li><a href="/feed.xml" target="_blank"><i class="fa fa-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="wrapper container" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+      <article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+  <header class="post-header">
+    <h1>讨论 Activity 的生命周期</h1>
+    <div class="post-meta">
+      <time datetime="2015-10-13">
+        <i class="fa fa-calendar-o"></i> <time datetime="2015-11-15"> 2015-11-15
+      </time>
+      <span>
+        <i class="fa fa-comments"></i> <a href="/Android-lifetime/#disqus_thread" data-disqus-identifier="/Android-lifetime">Leave a comment</a>
+      </span>
+      <span>
+        <i class="fa fa-folder-open-o"></i> 
+      </span>
+    </div>
+  </header>
+    <figure class="post-photo">
+      <img src="http://7xofac.com1.z0.glb.clouddn.com/Android_Activity_life.jpg" alt="讨论 Activity 的生命周期" title="讨论 Activity 的生命周期">
+    </figure>
+  <p>Activity 的作为 Android 重要单元之一（其他元件包括：Service,BroadcastReceiver和ContentProvider）其重要性自然不必多说， 今天就来Activity的生命周期来讨论一下
+生命周期（参考封面图案）。</p>
+<p>通过这张图,我们可以看到整个 Activity 的生命流程,总结几点:</p>
+<ol>
+  <li>每一个 Activity 被创建的时候，都要初始化,也就是回调 Oncreate() 函数。此方法在整个应用进程被终止或者整个 Activity 被销毁之前都不会被再次调用。</li>
+  <li>当Oncreat()函数被回调以后接着进入OnStrat(),接着有一个很特殊的状态 OnResume().然后才进入running状态,这个时候整个anctivity才会被显示到前台。</li>
+  <li>当 Activity 在 running 状态时跳转到新的Activity时，当前的 Activity 会先调用 OnPause()，然后第二个 Activity 进入创建状态,先 OnCreate() ,再 OnResume() .意味这第二个 Activity 进入了运行状态了。
+此时第一个Activity将调用OnStop();进入停止状态。意味这进入后台状态，同理当手机点击home键使得程序进入后台时，当前Activity也最终执行Onpause()===&gt;OnStop()流程。</li>
+  <li>当应用程序彻底关闭，整个进程断开时次 Acitivity 将彻底销毁 OnDestory() ;这种情况也发生在程序进入后台程序以后，（执行 OnStop()被其他的程序占用了内存，被系统杀掉，此时整个Activity也将被 OnDestory（）;</li>
+  <li>此时被 Activity 已经被销毁掉后，再次进入时，将重新新进行 OnCcreate()-====»OnStart()======&gt;onResume 创建流程。</li>
+</ol>
+<p>为了测试，我做了一个 Activity 切换的 demo , 核心代码如下:</p>
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainActivity</span> <span class="kd">extends</span> <span class="n">ActionBarActivity</span> <span class="o">{</span>
+   <span class="kd">final</span> <span class="n">String</span> <span class="n">TAG</span> <span class="o">=</span><span class="s">"------hxTest--------"</span><span class="o">;</span>
+   <span class="n">Button</span> <span class="n">finish</span><span class="o">,</span><span class="n">starSecondActivity</span><span class="o">;</span>
+    <span class="nd">@Override</span>
+    <span class="kd">protected</span> <span class="kt">void</span> <span class="n">onCreate</span><span class="o">(</span><span class="n">Bundle</span> <span class="n">savedInstanceState</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">.</span><span class="na">onCreate</span><span class="o">(</span><span class="n">savedInstanceState</span><span class="o">);</span>
+        <span class="n">setContentView</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">layout</span><span class="o">.</span><span class="na">activity_main</span><span class="o">);</span>
+        <span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"-------onCreate---firstActivity-------------"</span><span class="o">);</span>
+        <span class="n">starSecondActivity</span><span class="o">=(</span><span class="n">Button</span><span class="o">)</span><span class="n">findViewById</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">newButton</span><span class="o">);</span>
+        <span class="n">starSecondActivity</span><span class="o">.</span><span class="na">setOnClickListener</span><span class="o">(</span><span class="k">new</span> <span class="n">OnClickListener</span><span class="o">()</span> <span class="o">{</span>
+			<span class="nd">@Override</span>
+			<span class="kd">public</span> <span class="kt">void</span> <span class="n">onClick</span><span class="o">(</span><span class="n">View</span> <span class="n">arg0</span><span class="o">)</span> <span class="o">{</span>
+				<span class="n">Intent</span> <span class="n">intent</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Intent</span><span class="o">(</span><span class="n">MainActivity</span><span class="o">.</span><span class="na">this</span><span class="o">,</span><span class="n">SecondActivity</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
+				<span class="n">MainActivity</span><span class="o">.</span><span class="na">this</span><span class="o">.</span><span class="na">startActivity</span><span class="o">(</span><span class="n">intent</span><span class="o">);</span>
+			<span class="o">}</span>
+		<span class="o">});</span>
+        <span class="n">finish</span><span class="o">=(</span><span class="n">Button</span><span class="o">)</span><span class="n">findViewById</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">finish</span><span class="o">);</span>
+        <span class="n">finish</span><span class="o">.</span><span class="na">setOnClickListener</span><span class="o">(</span><span class="k">new</span> <span class="n">OnClickListener</span><span class="o">()</span> <span class="o">{</span>
+			<span class="kd">public</span> <span class="kt">void</span> <span class="n">onClick</span><span class="o">(</span><span class="n">View</span> <span class="n">arg0</span><span class="o">)</span> <span class="o">{</span>
+				<span class="n">MainActivity</span><span class="o">.</span><span class="na">this</span><span class="o">.</span><span class="na">finish</span><span class="o">();</span>
+			<span class="o">}</span>
+		<span class="o">});</span>
+    <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="n">onStart</span><span class="o">(){</span>
+    	<span class="kd">super</span><span class="o">.</span><span class="na">onStart</span><span class="o">();</span>
+    	<span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"-------onCreate--firstActivity------------"</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="n">onRestart</span><span class="o">(){</span>
+    	<span class="kd">super</span><span class="o">.</span><span class="na">onRestart</span><span class="o">();</span>
+    	<span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"-------onRestart----firstActivity----------"</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="n">onResume</span><span class="o">(){</span>
+    	<span class="kd">super</span><span class="o">.</span><span class="na">onResume</span><span class="o">();</span>
+    	<span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"-------onResume---firstActivity-----------"</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="n">onPause</span><span class="o">(){</span>
+    	<span class="kd">super</span><span class="o">.</span><span class="na">onPause</span><span class="o">();</span>
+    	<span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"-------onPause---firstActivity-----------"</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="n">onStop</span><span class="o">(){</span>
+    	<span class="kd">super</span><span class="o">.</span><span class="na">onStop</span><span class="o">();</span>
+    	<span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"-------onStop---firstActivity-----------"</span><span class="o">);</span>
+    <span class="o">}</span>
+     <span class="kd">public</span> <span class="kt">void</span> <span class="n">onDestroy</span><span class="o">(){</span>
+    	<span class="kd">super</span><span class="o">.</span><span class="na">onDestroy</span><span class="o">();</span>
+    	<span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"-------onDestroy---firstActivity-----------"</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="n">onCreateOptionsMenu</span><span class="o">(</span><span class="n">Menu</span> <span class="n">menu</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// Inflate the menu; this adds items to the action bar if it is present.</span>
+        <span class="n">getMenuInflater</span><span class="o">().</span><span class="na">inflate</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">menu</span><span class="o">.</span><span class="na">main</span><span class="o">,</span> <span class="n">menu</span><span class="o">);</span>
+        <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+    <span class="o">}</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="n">onOptionsItemSelected</span><span class="o">(</span><span class="n">MenuItem</span> <span class="n">item</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// Handle action bar item clicks here. The action bar will</span>
+        <span class="c1">// automatically handle clicks on the Home/Up button, so long</span>
+        <span class="c1">// as you specify a parent activity in AndroidManifest.xml.</span>
+        <span class="kt">int</span> <span class="n">id</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="na">getItemId</span><span class="o">();</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">id</span> <span class="o">==</span> <span class="n">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">action_settings</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">onOptionsItemSelected</span><span class="o">(</span><span class="n">item</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="o">}</span></code></pre></figure>
+<p>点击下载 <a href="http://download.csdn.net/detail/u010178833/7923245" title="demo">demo</a></p>
+  <footer class="post-footer">
+    <p>
+    <span id="busuanzi_container_page_pv">
+      本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>
+    </p>
+    <!---->
+    <!--<section class="author">-->
+      <!--<h4>JucsinSun</h4>-->
+      <!--<p>I have searched a thousand years,And I have cried a thousand tears.I found everything I need,You are everything to me. Barry Fitzpatrick</p>-->
+    <!--</section>-->
+    <!---->
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key=讨论Activity的生命周期 data-title=讨论 Activity 的生命周期 data-url=/Android-lifetime/></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+      var duoshuoQuery = {short_name: "jucsinyu"};
+      (function () {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';
+        ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+    <script
+        type = "text/javascript" >
+        var duoshuoQuery = {short_name: "jucsinyu"};
+        (function () {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';
+            ds.async = true;
+            ds.src = 'http://static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+    </script>
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <div class="container">
+        <ul class="icons">
+            <li>
+                <a href="https://github.com/DurianSUN/blog" class="icon-github" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+        </ul>
+        <p>
+            <ul class="ds-recent-visitors" data-num-items="12" data-avatar-size="32"></ul>
+        </p>
+        <p>  <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次
+             </span>
+             <span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv"></span>人次
+             </span>
+        </p>
+        <p>
+            <q>Veni vidi vici</q>
+            <small>– Gaius Julius Caesar</small>
+        </p>
+        <small class="clearfix">
+            Made with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> • <a href="https://github.com/nandomoreirame/nandomoreira-jekyll-theme"
+                                                                                    target="_blank">Open source </a>
+        </small>
+    </div>
+</footer>
+<a class="scroll-up fa fa-chevron-up bounce" href="#" data-position="0"></a>
+    <div id="modalSearch" class="modal">
+  <div class="modal__overlay"></div>
+  <div class="modal__content">
+    <a href="#!" class="modal-close" data-modal-close>&times;</a>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search in 4 articles">
+      <ul id="results-container"></ul>
+    </div>
+  </div>
+</div>
+    <script type="text/javascript" src="/assets/main.js"></script>
+  </body>
+</html>

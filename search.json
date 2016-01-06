@@ -1,0 +1,35 @@
+[
+  
+    {
+      "title"    : "2015 数字媒体技术研究所招新- Android 组演讲",
+      "category" : "jekyll and update",
+      "tags"     : "",
+      "url"      : "/speak/",
+      "date"     : "2015-11-18 16:13:51 +0800"
+    } ,
+  
+    {
+      "title"    : " Android 的学习路线（入门到进阶）",
+      "category" : "jekyll and update",
+      "tags"     : "",
+      "url"      : "/Android-study/",
+      "date"     : "2015-11-15 23:56:51 +0800"
+    } ,
+  
+    {
+      "title"    : "讨论 Activity 的生命周期",
+      "category" : "jekyll and update",
+      "tags"     : "",
+      "url"      : "/Android-lifetime/",
+      "date"     : "2015-11-15 15:56:51 +0800"
+    } ,
+  
+    {
+      "title"    : "近期回顾-记录",
+      "category" : "jekyll and update",
+      "tags"     : "work",
+      "url"      : "/list/",
+      "date"     : "2015-11-01 16:11:49 +0800"
+    } 
+  
+]
